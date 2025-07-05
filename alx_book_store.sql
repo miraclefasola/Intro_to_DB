@@ -1,12 +1,3 @@
-import mysql.connector
-
-mimi = mysql.connector.connect(
-    host="localhost",
-    user="Apexpredator",
-    password="my_secure_password",
-    use_pure=True
-
-)
 
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 
