@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Intro_to_DB.iml" filepath="$PROJECT_DIR$/.idea/Intro_to_DB.iml" />
+      <module fileurl="file://$USER_HOME$/Alx_exercise/OOP/.idea/OOP.iml" filepath="$USER_HOME$/Alx_exercise/OOP/.idea/OOP.iml" />
+      <module fileurl="file://$USER_HOME$/alx_be_python/.idea/alx_be_python.iml" filepath="$USER_HOME$/alx_be_python/.idea/alx_be_python.iml" />
+    </modules>
+  </component>
+</project>
