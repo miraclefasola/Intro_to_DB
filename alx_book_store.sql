@@ -4,12 +4,14 @@ mimi = mysql.connector.connect(
     host="localhost",
     user="Apexpredator",
     password="my_secure_password",
-    database="Alx_book_store",
     use_pure=True
 
 )
 
 my_cursor = mimi.cursor()
+
+my_cursor.execute ("CREATE Database if NOT EXISTS alx_book_store;")
+my_cursor.execute ("USE alx_book_store;")
 
 my_cursor.execute("""CREATE TABLE IF NOT EXISTS Authors (
 author_id INT AUTO_INCREMENT PRIMARY KEY,
